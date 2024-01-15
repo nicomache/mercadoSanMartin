@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar Sesión</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div id="logo" class="logo">
+        <img src="./logo.jpeg">
+    </div>
+    <div id="login" class="login">
+        <button id="loginButton" class="loginButton">Iniciar Sesión</button>
+        <form id="loginForm" class="loginForm">
+          <div>
+              <input type="text" placeholder=" Usuario">
+          </div>
+          <div>    
+              <input type="password" placeholder=" Contraseña">
+          </div>
+          <button type="submit">Entrar</button>
+          <button type="button" class="btnRegistrarme">Registrarme</button>
+        </form>
+    </div>
+</header>
+<div class="buscador" id="buscador">
+    <svg class="iconoLupa" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9a6.5 6.5 0 1 0-6.5 6.5c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9s2.01-5 4.5-5S14 6.01 14 9s-2.01 5-4.5 5z"/>
+    </svg>
+    <input type="search" placeholder=" Buscar..">
+</div>
+<main>
+    <div class="productos" id="productos">
+        <ul class="listaProductos" id="listaProductos">
+
+        </ul>
+    </div>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
